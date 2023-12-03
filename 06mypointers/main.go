@@ -12,5 +12,4 @@ func main() {
 	fmt.Println("Value of prt is: ", ptr)
 	fmt.Println("Value of prt is: ", *ptr)
 
-
 }

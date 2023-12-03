@@ -16,19 +16,15 @@ func main() {
 	fmt.Println(isLoggedIn)
 	fmt.Printf("Type of variable is: %T \n", isLoggedIn)
 
-
-
 	//Default values and some aliases.
 	var sampleString string
 	fmt.Println(sampleString)
 	fmt.Printf("Type of variable is: %T \n", sampleString)
 
-
 	//Implicit Type
 	var website = "www.google.co.in" //NO TYPE IS DEFINED!!
 	fmt.Println(website)
 	fmt.Printf("Type of variable is: %T \n", website)
-
 
 	//No var style
 	novar := "no var declared"
@@ -38,5 +34,5 @@ func main() {
 
 	//Calling private and public variable
 	// fmt.Println(name) --> Gives Error as name is Private.
-	fmt.Println(Name)	// --> Does not gives any error as it is Public.
+	fmt.Println(Name) // --> Does not gives any error as it is Public.
 }

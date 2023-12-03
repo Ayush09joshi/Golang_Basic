@@ -11,7 +11,6 @@ func main() {
 
 	fmt.Println("Welcome to Structs in golang")
 
-	
 	//Adding data to our Struct
 	User1 := User{"Ayush", "joshi09ayush@gmail.com", true, 21}
 	fmt.Println(User1)
@@ -27,8 +26,8 @@ func main() {
 //Creating Structs
 
 type User struct {
-	Name string
-	Email string
+	Name   string
+	Email  string
 	Status bool
-	Age int
+	Age    int
 }

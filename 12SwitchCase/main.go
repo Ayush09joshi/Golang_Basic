@@ -11,7 +11,6 @@ func main() {
 
 	//Explanation through ludo game.
 
-
 	//Creating a Random number for die.
 
 	diceNumber := rand.Intn(6) + 1
@@ -33,8 +32,7 @@ func main() {
 		fallthrough //When fallthrough is called, next argument will run with it.
 	default:
 		fmt.Println("Roll the Dice again.")
-		
-	}
 
+	}
 
 }
