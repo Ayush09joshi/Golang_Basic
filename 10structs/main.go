@@ -25,7 +25,7 @@ func main() {
 
 //Creating Structs
 
-type User struct {
+type User struct { //Type User -> It means that we are creating a new type "User" (int is a type, char is a type.)
 	Name   string
 	Email  string
 	Status bool
